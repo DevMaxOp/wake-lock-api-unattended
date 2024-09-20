@@ -67,7 +67,7 @@ if (isSupported) {
   //        wakeLock = null;
  //       })
 //   }
-  })
+ // })
 
 // request wakelock by default
 
