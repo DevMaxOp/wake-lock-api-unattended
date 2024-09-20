@@ -5,4 +5,4 @@ The Screen Wake Lock API is a tool that allows web applications prevent automati
 
 Demo:
 
-[[https://x404.github.io/wake-lock-api/](https://devmaxop.github.io/wake-lock-api-unattended/)]
+[https://devmaxop.github.io/wake-lock-api-unattended/](https://devmaxop.github.io/wake-lock-api-unattended/)
