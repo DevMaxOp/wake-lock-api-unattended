@@ -57,17 +57,21 @@ if (isSupported) {
   } // requestWakeLock()
 
   // if we click our button
-  wakeButton.addEventListener('click', () => {
+  //wakeButton.addEventListener('click', () => {
     // if wakelock is off request it
-    if (wakeButton.dataset.status === 'off') {
-      requestWakeLock()
-    } else { // if it's on release it
-      wakeLock.release()
-        .then(() => {
-          wakeLock = null;
-        })
-    }
+  //  if (wakeButton.dataset.status === 'off') {
+  //   requestWakeLock()
+   // } else { // if it's on release it
+    //  wakeLock.release()
+   //     .then(() => {
+  //        wakeLock = null;
+ //       })
+//   }
   })
+
+// request wakelock by default
+
+  requestWakeLock()
 
   const handleVisibilityChange = () => {
     if (wakeLock !== null && document.visibilityState === 'visible') {
